@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,CAAC,CAAA;EACG,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;EACT,UAAU,EAAE,UAAU;CACzB;;AAED,AAAA,KAAK,CAAA;EACD,QAAQ,EAAE,QAAQ;EAClB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,OAAO;EACf,IAAI,EAAE,KAAK;EACX,GAAG,EAAE,GAAG;CACX;;ACXD,AAAA,IAAI,CAAA;EACA,UAAU,EAAE,KAAK;CACpB",
+    "sources": [
+        "main.scss",
+        "parciales/_generals.scss",
+        "parciales/_comoComprar.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
