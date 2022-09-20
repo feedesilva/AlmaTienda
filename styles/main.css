@@ -32,7 +32,53 @@
           justify-content: center;
 }
 
+.portada {
+  height: 496px;
+  left: 16px;
+  top: 16px;
+  width: 100%;
+}
+
 body {
-  margin-top: 100px;
+  min-width: 360px;
+  height: 704px;
+  margin-left: 0px;
+  overflow-y: scroll;
+  background: #FFFFFF;
+}
+
+main {
+  margin-top: 80px;
+}
+
+body {
+  margin-top: 50px;
+}
+
+.filtro {
+  width: 158px;
+  height: 40px;
+  margin-left: 16px;
+  padding: 10px;
+  margin-top: 16px;
+  -webkit-box-shadow: 0px 4px 8px 3px rgba(0, 0, 0, 0.15), 0px 1px 3px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 4px 8px 3px rgba(0, 0, 0, 0.15), 0px 1px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 16px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#FFF9F2), to(#FFF9F2)), #FFF9F2;
+  background: linear-gradient(0deg, #FFF9F2, #FFF9F2), #FFF9F2;
+  margin-bottom: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 /*# sourceMappingURL=main.css.map */

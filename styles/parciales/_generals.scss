@@ -24,3 +24,23 @@ top: 96px;
 text-align: center;
 justify-content: center;
 }
+
+.portada{
+    height: 496px;
+    left: 16px;
+    top: 16px;
+    width: 100%;
+}
+
+body{
+    min-width: 360px;
+height: 704px;
+margin-left: 0px;
+overflow-y: scroll;
+
+background: #FFFFFF;
+}
+
+main{
+    margin-top: 80px   ;
+}
