@@ -2,9 +2,9 @@
 .portada{   
     position: absolute;
     width: 328px;
-    height: 496px;
+    height: 70vh;
     margin-left: 16px;
-    margin-top: 16px;
+    margin-top: 72px;
     border-radius: 4px;
 }
 
@@ -13,30 +13,34 @@
     width: 360px;
     height: 48px;
     margin-left: 0px;
-    margin-top: 528px;
+    margin-top: 584px;
     background: #A9C3B4;
 }
 
- .card{
- width: 158px;
- height: 35vh;
- background: linear-gradient(0deg, #E3C3C2, #E3C3C2), #FFFBFE;
- box-shadow: 0px 0.40625px 0.8125px rgba(0, 0, 0, 0.3), 0px 0.8125px 2.4375px 0.8125px rgba(0, 0, 0, 0.15);
- border-radius: 4.875px;
-}
+
 
 .productos_index{
     position: absolute;
-    margin-top:600px;
-    margin-left: 16px;
-    margin-right: 16px;
+    margin-top:628px;
+    margin-left: 8px;
+    margin-right: 8px;
     max-width: 328px;
 }
 
-.card-img-top{
-    width: 158px;
-height: 136px;
-margin-left: 0px;
-margin-top: 0px;
-border-radius: 4.88px;
+.prim_ver{
+    position: absolute;
+width: 328px;
+height: 48px;
+padding: 20px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+color:#FFFF;
+
 }

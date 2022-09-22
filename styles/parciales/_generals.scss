@@ -6,7 +6,7 @@
 
 nav{
     position: absolute;
-    width: 360px;
+    max-width: 360px;
     height: 56px;
     margin-left: 0px;
     background-color: linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFF9F2;
@@ -14,32 +14,63 @@ nav{
 }
 
 #logo{
-    position: absolute;
     width: 114px;
     height: 43.98px;
     margin-left: 123px;
     margin-top: 6px;
+    justify-content: center;
 }    
 
-// 
-.title{
-    background-color: #E3C3C2;
-    position: absolute;
-    width: 360px;
-    height: 56px;
-    margin-left: 0px;
-top: 96px;
-text-align: center;
-justify-content: center;
-}
-body{
-    min-width: 360px;
-height: 704px;
-margin-left: 0px;
-overflow-y: scroll;
-background: #FFFFFF;
+// .title{
+//     background-color: #E3C3C2;
+//     position: absolute;
+//     width: 360px;
+//     height: 56px;
+//     margin-left: 0px;
+// top: 96px;
+// text-align: center;
+// justify-content: center;
+// }
+
+
+
+.card-title{
+    width: 133px;
+height: 8px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 98%;
+letter-spacing: 0.203125px;
+color: #FFFFFF;
+
 }
 
-main{
-    margin-top: 80px   ;
+.card-text{
+width: 133px;
+height: 8px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 8px;
+line-height: 102%;
+letter-spacing: 0.101562px;
+color: #FFFFFF;
 }
+
+.card{
+    width: 140px;
+    height: 30vh;
+    background: linear-gradient(0deg, #E3C3C2, #E3C3C2), #FFFBFE;
+    box-shadow: 0px 0.40625px 0.8125px rgba(0, 0, 0, 0.3), 0px 0.8125px 2.4375px 0.8125px rgba(0, 0, 0, 0.15);
+    border-radius: 4.875px;
+}
+.card-img-top{
+    width: 100%;
+    height: 20vh;
+    margin-left: 0px;
+    margin-top: 0px;
+    border-radius: 4.88px;
+}
+
