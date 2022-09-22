@@ -4,40 +4,39 @@
     box-sizing: border-box;
 }
 
+nav{
+    position: absolute;
+    width: 360px;
+    height: 56px;
+    margin-left: 0px;
+    background-color: linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFF9F2;
+    box-shadow: 0px 0.873786px 1.74757px rgba(0, 0, 0, 0.3), 0px 1.74757px 5.24272px 1.74757px rgba(0, 0, 0, 0.15);
+}
+
 #logo{
     position: absolute;
     width: 114px;
     height: 43.98px;
-    left: 123px;
-    top: 6px;
-    justify-content: center;
-    align-items: center;
-}
- 
+    margin-left: 123px;
+    margin-top: 6px;
+}    
+
+// 
 .title{
     background-color: #E3C3C2;
     position: absolute;
-width: 360px;
-height: 56px;
-left: 0px;
+    width: 360px;
+    height: 56px;
+    margin-left: 0px;
 top: 96px;
 text-align: center;
 justify-content: center;
 }
-
-.portada{
-    height: 496px;
-    left: 16px;
-    top: 16px;
-    width: 100%;
-}
-
 body{
     min-width: 360px;
 height: 704px;
 margin-left: 0px;
 overflow-y: scroll;
-
 background: #FFFFFF;
 }
 

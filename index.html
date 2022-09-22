@@ -12,11 +12,10 @@
     <header>
         <nav class="navbar navbar-light bg-light fixed-top">
             <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" style="border:none;">
+              <img src="./Assets/Hamburguer.png" alt="" class="hamburguer">
             </button>
            <a href="index.html"> <img src="./Assets/Logo.png" alt="Logo" id="logo"></a>
-            <!-- cuidado tamaño -->
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header">
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -45,26 +44,26 @@
     <main>
         <div>
             <img class="row row-cols-1 row-cols-1 g-4 portada" src="./Assets/mono_Alma_1.png" alt="Mono_1">
-            <div>
+            <div class="subtitulo">
                 <h2>Primavera/Verano</h2>
             </div>
             <div>
             <!-- 15 cards -->
-                <div class="row row-cols-1 row-cols-2 g-4" style="max-width: 380px;">
+                <div class="row row-cols-1 row-cols-2 g-4 productos_index" >
                     <div class="col">
                       <div class="card">
-                        <img src="./Assets/Palazzo y remera Gardenia.png" class="card-img-top" alt="...">
+                        <a href="./sections/products_details/Combo_Gardenia.html"><img src="./Assets/Palazzo y remera Gardenia.png" class="card-img-top" alt="..."></a>
                         <div class="card-body">
-                          <h5 class="card-title">Palazzo y remera Gardenia</h5>
+                          <h5 class="card-title">Conjunto Gardenia</h5>
                           <span class="card-text">$7700</span>
                         </div>
                       </div>
                     </div>
                     <div class="col">
                       <div class="card">
-                        <img src="./Assets/Musculosa y short Lilo.png" class="card-img-top" alt="...">
+                        <a href="./sections/products_details/Combo_Lilo.html"><img src="./Assets/Musculosa y short Lilo.png" class="card-img-top" alt="..."></a>
                         <div class="card-body">
-                          <h5 class="card-title">Musculosa y short Lilo</h5>
+                          <h5 class="card-title">Conjunto Lilo</h5>
                           <span class="card-text">$6000</span>
                         </div>
                       </div>
@@ -73,14 +72,14 @@
                       <div class="card">
                         <img src="./Assets/Remerón y pantalón Dalia verde militar.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">Remerón y pantalón Dalia</h5>
+                          <h5 class="card-title">Conjunto Dalia</h5>
                           <span class="card-text">$7000</span>
                         </div>
                       </div>
                     </div>
                     <div class="col">
                       <div class="card">
-                        <img src="./Assets/Palazzo Gardenia.png" class="card-img-top" alt="Palazzo Gardenia">
+                        <a href="./sections/products_details/Palazzo_Gardenia.html"><img src="./Assets/Palazzo Gardenia.png" class="card-img-top" alt="Palazzo Gardenia"></a>
                         <div class="card-body">
                           <h5 class="card-title">Palazzo Gardenia</h5>
                           <span class="card-text">$4200</span>
@@ -89,7 +88,7 @@
                     </div>
                     <div class="col">
                       <div class="card">
-                        <img src="./Assets/Remera Gardenia.png" class="card-img-top" alt="Remera Gardenia">
+                        <a href="./sections/products_details/Remera_Gardenia.html"><img src="./Assets/Remera Gardenia.png" class="card-img-top" alt="Remera Gardenia"></a>
                         <div class="card-body">
                           <h5 class="card-title">Remera Gardenia</h5>
                           <span class="card-text">$3500</span>
@@ -98,7 +97,7 @@
                     </div>
                     <div class="col">
                       <div class="card">
-                        <img src="./Assets/mono_Alma_1.png" class="card-img-top" alt="...">
+                        <a href="./sections/products_details/Mono_Alma.html"><img src="./Assets/mono_Alma_1.png" class="card-img-top" alt="..."></a>
                         <div class="card-body">
                           <h5 class="card-title">Mono Alma</h5>
                           <span class="card-text">$6000</span>
@@ -107,7 +106,7 @@
                     </div>
                     <div class="col">
                       <div class="card">
-                        <img src="./Assets/Mono Amapolas.png" class="card-img-top" alt="...">
+                        <a href="./sections/products_details/Mono_Amapolas.html"><img src="./Assets/Mono Amapolas.png" class="card-img-top" alt="..."></a>
                         <div class="card-body">
                           <h5 class="card-title">Mono Amapolas</h5>
                           <span class="card-text">$5200</span>
@@ -116,7 +115,7 @@
                     </div>
                     <div class="col">
                       <div class="card">
-                        <img src="./Assets/Mono Iris 1.png" class="card-img-top" alt="...">
+                        <a href="./sections/products_details/Mono_Iris.html"><img src="./Assets/Mono Iris 1.png" class="card-img-top" alt="..."></a>
                         <div class="card-body">
                           <h5 class="card-title">Mono Iris</h5>
                           <span class="card-text">$6100</span>
@@ -125,7 +124,7 @@
                     </div>
                     <div class="col">
                       <div class="card">
-                        <img src="./Assets/Mono Jacarandá.png" class="card-img-top" alt="...">
+                        <a href="./sections/products_details/Mono_Jacaranda.html"><img src="./Assets/Mono Jacarandá.png" class="card-img-top" alt="..."></a>
                         <div class="card-body">
                           <h5 class="card-title">Mono Jacarandá</h5>
                           <span class="card-text">$6200</span>
@@ -134,7 +133,7 @@
                     </div>
                     <div class="col">
                       <div class="card">
-                        <img src="./Assets/Mono Magnolia.jpg" class="card-img-top" alt="...">
+                        <a href="./sections/products_details/Mono_Magnolia.html"><img src="./Assets/Mono Magnolia.jpg" class="card-img-top" alt="..."></a>
                         <div class="card-body">
                           <h5 class="card-title">Mono Magnolia</h5>
                           <span class="card-text">$6500</span>
@@ -143,7 +142,7 @@
                     </div>
                     <div class="col">
                       <div class="card">
-                        <img src="./Assets/Vesrtido Fresia 1.png" class="card-img-top" alt="...">
+                        <a href="./sections/products_details/Vestido_Fresia.html"><img src="./Assets/Vesrtido Fresia 1.png" class="card-img-top" alt="..."></a>
                         <div class="card-body">
                           <h5 class="card-title">Vesrtido Fresia</h5>
                           <span class="card-text">$5000</span>
@@ -152,7 +151,7 @@
                     </div>
                     <div class="col">
                       <div class="card">
-                        <img src="./Assets/Vestido Azalea rosa 2.png" class="card-img-top" alt="...">
+                        <a href="./sections/products_details/Vestido_Azalea.html"><img src="./Assets/Vestido Azalea rosa 2.png" class="card-img-top" alt="..."></a>
                         <div class="card-body">
                           <h5 class="card-title">Vestido Azalea</h5>
                           <span class="card-text">$4500</span>
@@ -161,7 +160,7 @@
                     </div>
                     <div class="col">
                       <div class="card">
-                        <img src="./Assets/Vestido Begonia.png" class="card-img-top" alt="...">
+                        <a href="./sections/products_details/Vestido_Begonia.html"><img src="./Assets/Vestido Begonia.png" class="card-img-top" alt="..."></a>
                         <div class="card-body">
                           <h5 class="card-title">Vestido Begonia</h5>
                           <span class="card-text">$6900</span>
@@ -170,7 +169,7 @@
                     </div>
                     <div class="col">
                       <div class="card">
-                        <img src="./Assets/Vestido Cala.jpg" class="card-img-top" alt="...">
+                        <a href="./sections/products_details/Vestido_Cala.html"><img src="./Assets/Vestido Cala.jpg" class="card-img-top" alt="..."></a>
                         <div class="card-body">
                           <h5 class="card-title">Vestido Cala</h5>
                           <span class="card-text">$6900</span>
@@ -179,7 +178,7 @@
                     </div>
                     <div class="col">
                       <div class="card">
-                        <img src="./Assets/Vestido Jazmin 1.jpg" class="card-img-top" alt="...">
+                        <a href="./sections/products_details/Vestido_Jazmin.html"><img src="./Assets/Vestido Jazmin 1.jpg" class="card-img-top" alt="..."></a>
                         <div class="card-body">
                           <h5 class="card-title">Vestido Jazmin</h5>
                           <span class="card-text">$6000</span>
@@ -188,7 +187,7 @@
                     </div>
                     <div class="col">
                       <div class="card">
-                        <img src="./Assets/Vestido Melissa 1.jpg" class="card-img-top" alt="...">
+                        <a href="./sections/products_details/Vestido_Melissa.html"><img src="./Assets/Vestido Melissa 1.jpg" class="card-img-top" alt="..."></a>
                         <div class="card-body">
                           <h5 class="card-title">Vestido Melissa</h5>
                           <span class="card-text">$6500</span>

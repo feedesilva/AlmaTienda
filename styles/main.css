@@ -5,18 +5,22 @@
           box-sizing: border-box;
 }
 
+nav {
+  position: absolute;
+  width: 360px;
+  height: 56px;
+  margin-left: 0px;
+  background-color: linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFF9F2;
+  -webkit-box-shadow: 0px 0.87379px 1.74757px rgba(0, 0, 0, 0.3), 0px 1.74757px 5.24272px 1.74757px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 0.87379px 1.74757px rgba(0, 0, 0, 0.3), 0px 1.74757px 5.24272px 1.74757px rgba(0, 0, 0, 0.15);
+}
+
 #logo {
   position: absolute;
   width: 114px;
   height: 43.98px;
-  left: 123px;
-  top: 6px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  margin-left: 123px;
+  margin-top: 6px;
 }
 
 .title {
@@ -24,19 +28,12 @@
   position: absolute;
   width: 360px;
   height: 56px;
-  left: 0px;
+  margin-left: 0px;
   top: 96px;
   text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-.portada {
-  height: 496px;
-  left: 16px;
-  top: 16px;
-  width: 100%;
 }
 
 body {
@@ -49,6 +46,50 @@ body {
 
 main {
   margin-top: 80px;
+}
+
+.portada {
+  position: absolute;
+  width: 328px;
+  height: 496px;
+  margin-left: 16px;
+  margin-top: 16px;
+  border-radius: 4px;
+}
+
+.subtitulo {
+  position: absolute;
+  width: 360px;
+  height: 48px;
+  margin-left: 0px;
+  margin-top: 528px;
+  background: #A9C3B4;
+}
+
+.card {
+  width: 158px;
+  height: 35vh;
+  background: -webkit-gradient(linear, left bottom, left top, from(#E3C3C2), to(#E3C3C2)), #FFFBFE;
+  background: linear-gradient(0deg, #E3C3C2, #E3C3C2), #FFFBFE;
+  -webkit-box-shadow: 0px 0.40625px 0.8125px rgba(0, 0, 0, 0.3), 0px 0.8125px 2.4375px 0.8125px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 0.40625px 0.8125px rgba(0, 0, 0, 0.3), 0px 0.8125px 2.4375px 0.8125px rgba(0, 0, 0, 0.15);
+  border-radius: 4.875px;
+}
+
+.productos_index {
+  position: absolute;
+  margin-top: 600px;
+  margin-left: 16px;
+  margin-right: 16px;
+  max-width: 328px;
+}
+
+.card-img-top {
+  width: 158px;
+  height: 136px;
+  margin-left: 0px;
+  margin-top: 0px;
+  border-radius: 4.88px;
 }
 
 body {
