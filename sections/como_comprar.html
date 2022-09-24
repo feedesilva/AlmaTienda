@@ -12,13 +12,10 @@
         <header>
             <nav class="navbar navbar-light bg-light fixed-top">
                 <div class="container-fluid">
-                    <div class="navbar">
-                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                       <a href="../index.html"> <img src="../Assets/Logo.png" alt="Logo" id="logo"></a>
-                        <!-- cuidado tamaño -->
-                    </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" style="border:none;">
+                  <img src="../Assets/Hamburguer.png" alt="" class="hamburguer">
+                </button>
+               <a href="../index.html"> <img src="../Assets/Logo.png" alt="Logo" id="logo"></a>
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header">
                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -29,9 +26,9 @@
                             <button class="btn btn-outline-success" type="submit">Buscar</button>
                         </form>
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                            <li class="nav-item">
-                                <a class="nav-link" href="productos.html">Productos</a>
-                            </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="productos.html">Productos</a>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Cómo Comprar</a>
                         </li>
@@ -45,44 +42,44 @@
         </nav>
         </header>
 <main>
-        <div>
             <div class="title">
-                <h3 style="color: white">Venta por WhatsApp</h3>
+                <h3 class="venta_wpp">Venta por WhatsApp</h3>
             </div>
-            <div>
-                <div>
-                    <div>
+            <div class="info_general">
+                <div class="info_compra">
+                    <div class="info_title">
                         <img src="../Assets/Truck.png" alt="Envíos">
                         <span>Envíos</span>
                     </div>
-                    <p>Por Correo Argentino a todo el país
+                    <p class="compra_txt">Por Correo Argentino a todo el país
                         Vía moto mensajería a CABA y GBA
                         Pick Up: Boedo (CABA)</p>
-            </div>
-            <div>
-                <div>
-                    <img src="../Assets/Card.png" alt="CARD">
-                    <span>Métodos de pago</span>
                 </div>
-                <p>Transferencia bancaria
-                    Mercado Pago
-                    Tarjeta de crédito</p>
+                <div class="info_compra">
+                    <div class="info_title">
+                        <img src="../Assets/Card.png" alt="CARD">
+                        <span>Métodos de pago</span>
+                    </div>
+                    <p class="compra_txt">Transferencia bancaria <br>
+                                          Mercado Pago        <br>
+                                            Tarjeta de crédito</p>
+                </div>
+            <div class="info_compra"> 
+                <div class="info_title">
+                    <img src="../Assets/Devolucion.png" alt="Devoluciones">
+                    <span>Devoluciones</span>
+                </div>
+                <p class="compra_txt">
+                    No se aceptan cambios ni devoluciones por otro talle o color
+                </p>
             </div>
-            <div>
-                <img src="../Assets/Devolucion.png" alt="Devoluciones">
-                <span>Devoluciones</span>
-            </div>
-            <p>
-                No se aceptan cambios ni devoluciones por otro talle o color
-            </p>
         </div>
-        <button>
+        <a href="../index.html"><button class="btn_wpp">
             <div>
-                <img src="../Assets/Wpp.png" alt="wpp">
-                <span>Comprar</span>
+                <img src="../Assets/Wpp.png" alt="wpp" class="wpp_img">
+                <span class="wpp_txt">Comprar</span>
             </div>
-        </button>
-    </div>
+        </button></a>
 </main>
 <footer>
     <div>
