@@ -330,4 +330,11 @@ nav {
   background: -webkit-gradient(linear, left bottom, left top, from(#A9C3B4), to(#A9C3B4)), #FFFBFE;
   background: linear-gradient(0deg, #A9C3B4, #A9C3B4), #FFFBFE;
 }
+
+.products {
+  margin-left: 0rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
 /*# sourceMappingURL=main.css.map */
