@@ -56,8 +56,6 @@ nav {
 .card {
   width: 100%;
   height: 30vh;
-  background: -webkit-gradient(linear, left bottom, left top, from(#E3C3C2), to(#E3C3C2)), #FFFBFE;
-  background: linear-gradient(0deg, #E3C3C2, #E3C3C2), #FFFBFE;
   -webkit-box-shadow: 0px 0.40625px 0.8125px rgba(0, 0, 0, 0.3), 0px 0.8125px 2.4375px 0.8125px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 0.40625px 0.8125px rgba(0, 0, 0, 0.3), 0px 0.8125px 2.4375px 0.8125px rgba(0, 0, 0, 0.15);
   border-radius: 4.875px;
@@ -92,6 +90,11 @@ nav {
   margin-right: 0rem;
   padding: 0rem;
   background: #A9C3B4;
+}
+
+.card_index {
+  background: -webkit-gradient(linear, left bottom, left top, from(#E3C3C2), to(#E3C3C2)), #FFFBFE;
+  background: linear-gradient(0deg, #E3C3C2, #E3C3C2), #FFFBFE;
 }
 
 .productos_index {
@@ -301,7 +304,7 @@ nav {
   height: 40px;
   margin-left: 16px;
   padding: 10px;
-  margin-top: 16px;
+  margin-top: 5rem;
   -webkit-box-shadow: 0px 4px 8px 3px rgba(0, 0, 0, 0.15), 0px 1px 3px rgba(0, 0, 0, 0.3);
           box-shadow: 0px 4px 8px 3px rgba(0, 0, 0, 0.15), 0px 1px 3px rgba(0, 0, 0, 0.3);
   border-radius: 16px;
@@ -321,5 +324,10 @@ nav {
           align-items: center;
   -ms-flex-line-pack: center;
       align-content: center;
+}
+
+.card_products {
+  background: -webkit-gradient(linear, left bottom, left top, from(#A9C3B4), to(#A9C3B4)), #FFFBFE;
+  background: linear-gradient(0deg, #A9C3B4, #A9C3B4), #FFFBFE;
 }
 /*# sourceMappingURL=main.css.map */
