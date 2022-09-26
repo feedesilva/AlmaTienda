@@ -12,8 +12,8 @@
     <header>
         <nav class="navbar navbar-light bg-light fixed-top">
             <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" style="border:none ;">
+              <img src="../../Assets/Hamburguer.png" alt="" class="hamburguer">
             </button>
             <a href="../../index.html"> <img src="../../Assets/Logo.png" alt="Logo" id="logo"></a>
             <!-- cuidado tamaño -->
@@ -43,7 +43,8 @@
     </nav>
     </header>
     <main>
-        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="product_general">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide presentacion_producto" data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -51,19 +52,19 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active" data-bs-interval="10000">
-                <img src="../../Assets/Vestido Nogal beige.png" class="d-block w-100" alt="...">
+                <img src="../../Assets/Vestido Nogal beige.png" class="d-block w-100 img_product" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>Beige</h5>
                 </div>
               </div>
               <div class="carousel-item" data-bs-interval="2000">
-                <img src="../../Assets/Vestido Nogal beige 2.png" class="d-block w-100" alt="...">
+                <img src="../../Assets/Vestido Nogal beige 2.png" class="d-block w-100 img_product" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>Beige</h5>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="../../Assets/Vestido Nogal beige y negro.jpg" class="d-block w-100" alt="...">
+                <img src="../../Assets/Vestido Nogal beige y negro.jpg" class="d-block w-100 img_product" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>Beige y negro</h5>
                 </div>
@@ -79,23 +80,37 @@
             </button>
           </div>
           <div>
-            <h3>Vestido Nogal</h3>
-            <p>Vestido manga larga, de lanilla morley. Con cuello polera y bolsillos laterales.</p>
-            <div>
-              <h3>$4600</h3>
-              <h4>Transferencia/Débito</h4>
+            <h3 class="product_title">Vestido Nogal</h3>
+            <p class="product_description">Vestido manga larga, de lanilla morley. Con cuello polera y bolsillos laterales.</p>
+            <div class="precio">
+              <h3 class="precio_txt" style="font-weight:bolder;">$4600</h3>
+              <h4 class="precio_txt"> Transferencia/Débito</h4>
             </div>
-            <div>
-              <h3>$5900</h3>
-              <h4>Crédito</h4>
+            <div class="precio">
+              <h3 class="precio_txt" style="font-weight:bolder;">$5900</h3>
+              <h4 class="precio_txt"> Crédito</h4>
             </div>
-            <div>
-              <h4>Color</h4>
-              <h5>-Beige</h5>
-              <h5>-Negro</h5>
+            <div style="margin-bottom: 140px;">
+              <h4 class="color">Color</h4>
+              <h5 class="color_options">-Beige</h5>
+              <h5 class="color_options">-Negro</h5>
             </div>
         </div>
+      </div>
     </main>
+    <footer class="footer_compra">
+      <div style="display:flex; justify-items: center; align-items: center; flex-flow: column wrap;">
+          <div class="footer_img">
+              <img src="../../Assets/Fb.png" alt="Facebook" class="footer_red">
+              <img src="../../Assets/Ig.png" alt="Instagram" class="footer_red">
+              <img src="../../Assets/Black_wpp.png" alt="Wpp" class="footer_red">
+          </div>
+          <div class="footer_p">
+              <img src="../../Assets/copy.png" alt="" class="footer_c">
+              <p class="footer_txt">2020 Alma Tienda. Todos los derechos reservados</p>
+          </div>
+      </div>
+  </footer>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
