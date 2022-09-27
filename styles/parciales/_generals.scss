@@ -3,11 +3,8 @@
     margin: 0;
     box-sizing: border-box;
 }
-// main{
-//     margin-bottom: 1rem;
-// }
+
 nav{
-    // position: absolute;
     width: 100%;
     height: 3.5rem;
     margin-right: 0rem;
@@ -26,26 +23,26 @@ nav{
 
 .card-title{
     width: 100%;
-height: 0.5rem;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 0.625rem;
-line-height: 98%;
-letter-spacing: 0.203125px;
-color: #FFFFFF;
+    height: 0.5rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.625rem;
+    line-height: 98%;
+    letter-spacing: 0.203125px;
+    color: #FFFFFF;
 
 }
 
 .card-text{
-width: 100%;
-height: 0.5rem;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 0.5rem;
-letter-spacing: 0.101562px;
-color: #FFFFFF;
+    width: 100%;
+    height: 0.5rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.5rem;
+    letter-spacing: 0.101562px;
+    color: #FFFFFF;
 }
 
 .card{
@@ -80,21 +77,20 @@ color: #FFFFFF;
     align-items: center;
     width: 100%;
     height: 56px;
-background: #FFFFFF;
-margin-left: 1rem;
-// margin-top: 2rem;
+    background: #FFFFFF;
+    margin-left: 1rem;
 }
 
 .footer_txt{
     width: 80%;
-height: 40px;
-margin-left: 20px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 14px;
-color: #000000;
+    height: 40px;
+    margin-left: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
 
 }
 
@@ -107,5 +103,4 @@ color: #000000;
 
 .nav-link{
     color:#A9C3B4;
-
 }
