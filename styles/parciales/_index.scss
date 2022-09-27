@@ -1,6 +1,5 @@
 // Index//
 .portada{   
-    position: absolute;
     width: 90%;
     height: 31rem;
     margin-left: 1rem;
@@ -10,10 +9,9 @@
 }
 
 .subtitulo{
-    position: absolute;
     width: 100%;
     height: 3rem;
-    margin-top: 36.5rem;
+    margin-top: 1rem;
     margin-right: 0rem;
     padding: 0rem;
     background: #A9C3B4;
@@ -24,8 +22,7 @@
     background: linear-gradient(0deg, #E3C3C2, #E3C3C2), #FFFBFE;
 }
 .productos_index{
-    position: absolute;
-    margin-top:39.25rem;
+    margin-top:1rem;
     margin-left: 0rem;
     margin-right: 0.5rem;
     margin-bottom: 0.5rem;
@@ -33,7 +30,6 @@
 }
 
 .prim_ver{
-    position: absolute;
 width: 100%;
 height: 3rem;
 padding: 1.25rem;

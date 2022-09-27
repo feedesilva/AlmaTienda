@@ -9,39 +9,38 @@
     <title>Palazzo Gardenia</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-light bg-light fixed-top">
-            <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <a href="../../index.html"> <img src="../../Assets/Logo.png" alt="Logo" id="logo"></a>
-            <!-- cuidado tamaño -->
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                <div class="offcanvas-header">
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
-                        <button class="btn btn-outline-success" type="submit">Buscar</button>
-                    </form>
-                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                      <li class="nav-item">
-                          <a class="nav-link" href="../productos.html">Productos</a>
-                      </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../como_comprar.html">Cómo Comprar</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../contacto.html">Contacto</a>
-                    </li>
-                </ul>
-              </div>
+  <header>  
+    <nav class="navbar navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" style="border:none;">
+          <img src="../../Assets/Hamburguer.png" alt="" class="hamburguer">
+        </button>
+       <a href="../../index.html"> <img src="../../Assets/Logo.png" alt="Logo" id="logo"></a>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" style="width:20rem ;">
+            <div class="offcanvas-header" style="padding: 1.5rem 18rem;">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
+            <div class="offcanvas-body">
+                <form class="d-flex" role="search" style="width: 70%;">
+                  <button class="btn btn-outline-success" type="submit" style="border:none;"><img src="../../Assets/Buscar.png" alt=""></button>
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar" style="color:   #A9C3B4; border-color: #A9C3B4;">
+                </form>
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                    <a class="nav-link" href="../productos.html" style="color: #A9C3B4;">Productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../como_comprar.html" style="color: #A9C3B4;">Cómo Comprar</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../contacto.html" style="color: #A9C3B4;">Contacto</a>
+                </li>
+            </ul>
+          </div>
         </div>
-    </nav>
-    </header>
+    </div>
+</nav>
+</header>
     <main>
         <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
