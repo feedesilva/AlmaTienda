@@ -1,28 +1,28 @@
 .presentacion_producto{
-    margin-left: 16px;
-    margin-right: 16px;  
+    margin-left: 1rem;
+    margin-right: 1rem;  
 }
  
 .img_product{
-    border-radius: 4.88px;
-height: 496px;
+    border-radius: 0.305rem;
+    height: 31rem;
 }
 
 .product_general{
 
-    margin-top: 72px;
+    margin-top: 4.5rem;
     height: 100vh;
 }
 
 .product_title{
 width: 100%;
-height: 48px;
-margin-left: 16px;
+height: 3rem;
+margin-left: 1rem;
 font-family: 'Roboto';
 font-style:normal;
 font-weight: bolder;
-font-size: 20px;
-line-height: 23px;
+font-size: 1.25rem;
+line-height: 1.438rem;
 display: flex;
 align-items: center;
 color: #000000;
@@ -30,13 +30,12 @@ color: #000000;
 
 .product_description{
     width: 80%;
-// height: 30px;
-margin-left: 16px;
+margin-left: 1rem;
 font-family: 'Roboto';
 font-style:normal;
 font-weight: 200;
-font-size: 16px;
-line-height: 23px;
+font-size: 1rem;
+line-height: 1.438rem;
 display: flex;
 align-items: center;
 color: #000000;
@@ -50,28 +49,28 @@ margin-top: 0.5rem;
 }
 
 .precio_txt{
-height: 32px;
-margin-left: 16px;
+height: 2rem;
+margin-left: 1rem;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
-font-size: 18px;
-line-height: 21px;
+font-size: 1.125rem;
+line-height: 1.313rem;
 display: flex;
 align-items: center;
 color: #000000; 
 }
 
 .color{
-    height: 32px;
-margin-left: 16px;
-margin-right: 64px;
+    height: 2rem;
+margin-left: 1rem;
+margin-right: 4rem;
 
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
-font-size: 16px;
-line-height: 32px;
+font-size: 1rem;
+line-height: 2rem;
 display: flex;
 align-items: center;
 color: #1C1B1F;
@@ -79,16 +78,16 @@ mix-blend-mode: normal;
 }
 
 .color_options{
-margin-left: 16px;
-margin-right: 64px;
+margin-left: 1rem;
+margin-right: 4rem;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
-font-size: 14px;
-line-height: 20px;
+font-size: 0.875rem;
+line-height: 1.25rem;
 display: flex;
 align-items: center;
-letter-spacing: 0.25px;
+letter-spacing: 0.016rem;
 color: #49454F;
 mix-blend-mode: normal;
 }

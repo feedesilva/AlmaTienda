@@ -10,7 +10,7 @@ nav{
     margin-right: 0rem;
     margin-left: 0rem;
     background-color: linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFF9F2;
-    box-shadow: 0px 0.873786px 1.74757px rgba(0, 0, 0, 0.3), 0px 1.74757px 5.24272px 1.74757px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0.055rem 0.109rem rgba(0, 0, 0, 0.3), 0px 0.109rem 0.328rem 0.109rem rgba(0, 0, 0, 0.15);
 }
 
 .nav-link{
@@ -37,7 +37,7 @@ nav{
     font-weight: 400;
     font-size: 0.625rem;
     line-height: 98%;
-    letter-spacing: 0.203125px;
+    letter-spacing: 0.013rem;
     color: #FFFFFF;
 
 }
@@ -49,25 +49,25 @@ nav{
     font-style: normal;
     font-weight: 400;
     font-size: 0.5rem;
-    letter-spacing: 0.101562px;
+    letter-spacing: 0.006rem;
     color: #FFFFFF;
 }
 
 .card{
     width: 100%;
     height: 30vh;
-    box-shadow: 0px 0.40625px 0.8125px rgba(0, 0, 0, 0.3), 0px 0.8125px 2.4375px 0.8125px rgba(0, 0, 0, 0.15);
-    border-radius: 4.875px;
+    box-shadow: 0rem 0.025rem 0.051rem rgba(0, 0, 0, 0.3), 0rem 0.051rem 0.152rem 0.051rem rgba(0, 0, 0, 0.15);
+    border-radius: 0.305rem;
     margin-right: 0.5rem;
     margin-left: 0rem;
 }
 .card-img-top{
     width: 100%;
     height: 22.5vh;
-    margin-left: 0px;
-    margin-top: 0px;
+    margin-left: 0rem;
+    margin-top: 0rem;
     margin-right: 0rem;
-    border-radius: 4.88px;
+    border-radius: 0.305rem;
 }
 
 .footer_img{
@@ -76,7 +76,7 @@ nav{
     justify-content: center;
 }
 .footer_red{
-    padding: 17.48px;
+    padding: 1.093rem;
 }
 
 .footer_p{
@@ -84,20 +84,20 @@ nav{
     flex-flow: column wrap;
     align-items: center;
     width: 100%;
-    height: 56px;
+    height: 3.5rem;
     background: #FFFFFF;
     margin-left: 1rem;
 }
 
 .footer_txt{
     width: 80%;
-    height: 40px;
-    margin-left: 20px;
+    height: 2.5rem;
+    margin-left:  1.25rem;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 0.75rem;
+    line-height: 0.875rem;
     color: #000000;
 
 }
